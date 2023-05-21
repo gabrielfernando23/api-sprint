@@ -8,8 +8,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/home")
 public class Controller {
+
     @GetMapping("/conexao")
     public ResponseEntity conexao() {
+
+        System.out.println("Olá mundo");
         return ResponseEntity.ok().build();
     }
 }
