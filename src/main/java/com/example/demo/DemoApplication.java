@@ -1,13 +1,13 @@
-package apirest.api;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RequisicApplication {
+public class DemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RequisicApplication.class, args);
+		SpringApplication.run(DemoApplication.class, args);
 	}
 
 }
